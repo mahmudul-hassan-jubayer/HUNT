@@ -1,3 +1,7 @@
+//wow.js animation
+new WOW().init();
+
+
 //fixed menu
 $(window).scroll(function () {
     $scrollamount = $(window).scrollTop();
@@ -71,6 +75,10 @@ $('#banner-part').slick({
 $('.venobox').venobox();
 
 
+
+
+
+
 //our services slide
 $('.service-slider').slick({
     dots: false,
@@ -123,7 +131,7 @@ $('#testimonial .left').slick({
     slidesToScroll: 1,
     prevArrow: '<i class="fa fa-arrow-up prev" aria-hidden="true"></i>',
     nextArrow: '<i class="fa fa-arrow-down next" aria-hidden="true"></i>',
-    autoplay: false,
+    autoplay: true,
     vertical: true,
     centerMode: true,
     centerPadding: 0,
@@ -173,7 +181,7 @@ $('.right-slider').slick({
     slidesToScroll: 1,
     prevArrow: '<i class="fa fa-arrow-up prev" aria-hidden="true"></i>',
     nextArrow: '<i class="fa fa-arrow-down next" aria-hidden="true"></i>',
-    autoplay: false,
+    autoplay: true,
     vertical: false,
     arrows: false,
 //    centerMode: false,
